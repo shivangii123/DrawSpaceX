@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myCanvas{
+            border: 2px solid black;
+            margin: 30px;
+            /* cursor: pointer; */
+        }
+        .navbar{
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <input type="color" id="colorPicker" title="select color"/>  
+        <input type="range" id="brushSize" min="1" max="20" title="Change brush size">
+        <button type="reset" id="resetBtn"> Clear</button >
+        <button id="saveBtn"> Save</button>
+        <button id="pencil">Pencil</button>
+        <button id="rectangle"> Rectg</button>
+        <button id="circle">Circle </button>
+        <button id="arrow"> Arrow</button>
+        <!-- <input type="text" id="textBox" placeholder="Enter something.."> -->
+    </div>
+
+    <canvas id="myCanvas" width="1100" height="450" >    </canvas>
+    <script src="./canvasRun.js"></script>
+
+</body>
+</html>
