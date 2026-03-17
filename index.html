@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #myCanvas{
+        #mycanvas{
             border: 2px solid black;
             margin: 30px;
             /* cursor: pointer; */
@@ -22,7 +22,7 @@
     <div class="navbar">
         <input type="color" id="colorPicker" title="select color"/>  
         <input type="range" id="brushSize" min="1" max="20" title="Change brush size">
-        <button type="reset" id="resetBtn"> Clear</button >
+        <button id="clear"> Clear</button >
         <button id="saveBtn"> Save</button>
         <button id="pencil">Pencil</button>
         <button id="rectangle"> Rectg</button>
@@ -31,8 +31,9 @@
         <!-- <input type="text" id="textBox" placeholder="Enter something.."> -->
     </div>
 
-    <canvas id="myCanvas" width="1100" height="450" >    </canvas>
-    <script src="./canvasRun.js"></script>
+    <canvas id="mycanvas" width="1100" height="460" >   </canvas>
+    <!-- <script src="./script.js"></script> -->
+    <script src="./canva.js"></script>
 
 </body>
 </html>
